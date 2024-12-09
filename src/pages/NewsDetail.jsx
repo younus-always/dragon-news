@@ -6,7 +6,6 @@ import { MdKeyboardDoubleArrowLeft } from "react-icons/md"
 const NewsDetail = () => {
       const data = useLoaderData()
       const news = data.data[0]
-      console.log(news)
 
       return (
             <>

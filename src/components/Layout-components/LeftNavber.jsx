@@ -9,7 +9,6 @@ const LeftNavber = () => {
                   .then(data => setCategories(data.data.news_category))
       }, [])
 
-      console.log(categories)
 
       return (
             <div>

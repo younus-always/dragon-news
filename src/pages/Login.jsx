@@ -20,7 +20,6 @@ const Login = () => {
                         const userInfo = result.user;
                         setUser(userInfo)
                         navigate(location?.state ? location.state : '/')
-                        console.log(userInfo)
                   }).catch(err => {
                         setError({ ...error, login: err.code })
                   })
